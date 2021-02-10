@@ -1,0 +1,67 @@
+
+header{    
+    background-position: center center;
+    height: 350px;
+    background-image: url("img/bg.jpg");
+}
+
+h1{
+    background-color: rgb(248, 248, 248);
+    margin-top: 80px;
+    padding-left: 11rem; 
+    opacity: 0.25;
+    font-family: Verdana;
+    color: #416618;
+    font-weight: bold;
+}
+
+h2{    
+    margin-top: 10px; 
+    color: #416618;
+    border-color: #416618;  
+    border-left: 3px;
+    border-style: dotted;
+    font-variant: small-caps;
+    margin: 5px 15px 5px 15px;
+}
+
+h3{    
+    font-weight: bold;
+    color: #894f3b;  
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 1px; 
+}
+
+li{
+    list-style-image: url(../img/lemon2.png);
+    float: left;
+    margin-left: 40px;
+}
+
+td,th{
+    text-align: center;
+}
+
+thead>tr:first-child{    
+    letter-spacing: 2px;
+    text-transform: uppercase; 
+}
+
+.navbar{
+    background-color: #fd8800;
+}
+
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+#mandarin{
+    float: right;
+}
+
+p{
+    text-align: justify;
+    text-indent: 15px
+}
