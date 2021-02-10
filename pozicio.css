@@ -1,0 +1,29 @@
+body{
+  width:500px;
+  margin:0 auto;
+  background-color: antiquewhite;
+  height: 2000px;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+
+div{
+  display:block;
+}
+/*pozicionálás*/
+
+#x{
+  font-weight: bold;
+  position: relative;
+  text-align: right;
+}
+
+#kinai{
+  position: relative;
+}
+
+#kerdojel{
+  
+  text-align: right;
+  position: fixed;
+}
