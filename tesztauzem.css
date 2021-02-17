@@ -1,0 +1,31 @@
+body{
+    font-family: 'Muli-Ligh, Sans-Serif';
+    font-size: 18px;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Muli-ExtraBold';
+}
+
+.fejlec-kep{
+    background-image: url(tesztauzem-fejlec.jpg);
+    height: 500px;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#tesztauzem-kep{
+    max-width: 95%;
+}
+
+.display-4{
+    font-size: 54px;
+}
+
+.akcio{
+    background-color: #d6c5c5;
+    padding: 15px;
+    font-weight: 700;
+}
