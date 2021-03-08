@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script src="oldat.js"></script>
+    <title>Oldat</title>
+  </head>
+  <body>
+    <div class="container">
+		<div class="row">
+			<div class="row w-100 cim">
+				<h1>Oldat</h1>
+			</div>
+			<div class="row">
+				<p>A többkomponensű, homogén, vagy inhomogén rendszereket összefoglaló néven elegyeknek nevezzük.</p>
+				<p>Az oldat elnevezést ezen belül azokra a rendszerekre használjuk, amelyekben egyik komponens – az oldószer – koncentrációja a többiéhez – oldott anyagok – képest viszonylag nagy. A komponens a rendszert alkotó, kémiailag egységes részecskéinek halmaza. Megkülönböztetünk egy-, két- és többkomponensű rendszereket.</p>
+				<p>Gyakori oldószerek például a víz, benzin, alkohol stb. Oldott anyag lehet például a só, cukor, oxigén, alkohol stb.</p>
+			</div>
+		</div>
+		<div class="row align-items-center">
+			<div class="w-100">
+				<h2>Az oldatok telítettsége</h2>
+			</div>
+			<p>Az oldatokat telítettség szempontjából több csoportba sorolhatjuk:</p>
+	
+			<div class="col-9">
+				
+			<ul class="text-justify">
+				<li><u><b>híg oldat</b></u>: ha az oldott anyag részarányát minden határon túl csökkentjük, akkor a híg oldat fogalmához jutunk. A híg oldatok törvényszerűségei nem az oldott anyagtól, hanem az oldószertől függenek.</li>
+				<li><u><b>telítetlen oldat</b></u>: ha az oldott komponens koncentrációja kisebb, mint az adott körülményekhez (oldószer, hőmérséklet, nyomás) tartozó oldhatósága (az oldandó anyagból még több is oldódhat).</li>
+				<li><u><b>telített oldat</b></u>: ha az oldott komponens koncentrációja megegyezik az adott körülményekhez	(oldószer, hőmérséklet, nyomás) tartozó oldhatóságával (a feleslegben hozzáadott anyag oldatlanul visszamarad).</li>
+				<li><u><b>túltelített az oldat</b></u>, ha az oldott komponens koncentrációja nagyobb, mint az adott körülményekhez (oldószer, hőmérséklet, nyomás) tartozó oldhatósága. Ilyen rendszer akkor jön létre, ha adott hőmérsékleten egy telített oldat elkezd hűlni és benne a kristálygóc-képződés különféle gátlások miatt nem indul meg.</li>
+			</ul>
+			</div>
+			<div class="col-3">
+				<img src="oldat.jpg" class="img-fluid" alt="Kémcsövek, lombikok" title="Kémcsövek, lombikok">
+			</div>
+		</div>
+		<div class="row">
+			<h2>Az oldat töménysége</h2>
+			<p>Az oldatok töménységét nemcsak jelzőkkel fejezhetjük ki, hanem számadatokkal is. Erre szolgál az egyik legegyszerűbb kifejezési mód, a tömegszázalék (m/m %). A tömegszázalék megmutatja, hogy az oldott anyag tömege hány százaléka az egész oldat tömegének.</p>
+			<div class="row justify-content-center w-100 mb-3">
+				<div class="text-white bg-success pl-5 pr-5">
+					<p class="text-center">m/m % = ( moa / ( mosz + moa ) ) * 100, ahol <br>moa = oldott anyag tömege; <br>mosz = oldószer tömege</p>
+				</div>
+			</div>
+			<form>
+				<label>Hány tömegszázalékos az az oldat, amelyben</label>
+				<input type="number" class="bg-success" id="moa" min=0>
+				<label>g sót feloldunk</label>
+				<input type="number" class="bg-success" id="mosz" min=0>
+				<label>g vízben</label>
+				<br>
+				<input type="button" value="Számol" class="btn btn-success" onclick="szamol()">
+				<br>
+				<label>Eredmeny <span id="eredmeny"></span> m/m%</label>
+			</form>
+			
+			<p class="w-100 text-right"><a class="text-decoration-none text-dark font-weight-bold font-italic" href="https://hu.wikipedia.org/wiki/Oldat">Wikipedia-Oldat</p>
+		</div>
+		</div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

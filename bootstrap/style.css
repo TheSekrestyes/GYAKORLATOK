@@ -1,0 +1,17 @@
+.cim{
+    border-bottom: 5px dashed rgb(0, 88, 88);
+}
+
+body{
+    background-image: url("minta.jpg");
+    background-repeat: no-repeat;
+}
+
+ul{
+    list-style-image: url('lombik.png');
+}
+
+img{
+    border: 5px solid rgb(0, 88, 88);
+}
+
