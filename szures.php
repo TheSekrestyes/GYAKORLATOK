@@ -27,7 +27,8 @@ if(isset($_POST['btn'])){
             $eredmeny2.="<li>{$nev} - {$ev}</li>";
         }
     }
-    //amugy ez a Dani gyerek kurva idegesítő nem?
+   
+
     
 }
 ?>
