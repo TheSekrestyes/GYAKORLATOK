@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .hossz{
+            height: 500px;
+        }
+        .fejlec{
+            height: 70px;
+        }
+        .fo{
+            position: relative;
+        }
+        .doboz{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
+    <title>Pozicionalas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 bg-dark fejlec"></div>
+        </div>
+        <div class="row">
+                <div class="col bg-danger hossz"></div>
+                <div class="col-5 bg-primary mr-2 ml-2 fo">
+                    <div class="bg-dark doboz "></div>
+                </div>
+                <div class="col bg-success"></div>
+        </div>
+        <div class="row">
+            <div class="col-12 bg-dark fejlec"></div>
+        </div>
+    </div>
+</body>
+</html>
