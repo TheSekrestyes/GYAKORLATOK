@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolygók</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="tartalom">
+        <h1>A Naprendszer bolygói</h1>
+        <div class="row text-center">
+            <div class="col-md-3 col-6"><img src="merkur.jpg"><h3>Merkúr</h3></div>
+            <div class="col-md-3 col-6"><img src="venusz.jpg"><h3>Vénusz</h3></div>
+            <div class="col-md-3 col-6"><img src="fold.jpg"><h3>Föld</h3></div>
+            <div class="col-md-3 col-6"><img src="mars.jpg"><h3>Mars</h3></div>
+
+            <div class="col-md-3 col-6"><img src="jupiter.jpg"><h3>Jupiter</h3></div>
+            <div class="col-md-3 col-6"><img src="saturn.jpg"><h3>Szaturnusz</h3></div>
+            <div class="col-md-3 col-6"><img src="uranus.jpg"><h3>Uránusz</h3></div>
+            <div class="col-md-3 col-6"><img src="neptun.jpg"><h3>Neptunusz</h3></div>
+        </div>
+    </div>
+</body>
+
+<script>
+    document.getElementById('tartalom').addEventListener('click',(e)=>{
+      console.log('target:',e.target.tagName)
+      if(e.target.tagName=='IMG')
+        window.open(e.target.src, '_blank')
+    })
+</script>
+
+</html>
