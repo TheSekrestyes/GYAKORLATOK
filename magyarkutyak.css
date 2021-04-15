@@ -1,0 +1,49 @@
+.hasab {
+    max-width: 450px;
+    width: auto;
+}
+.bal{
+    float: left;
+}
+.jobb{
+    float: right;
+}
+
+
+.footer {
+    border-top: 2px solid #a52a2a;
+    bottom: 10px;
+}
+
+
+body{
+    width: 960px;
+    margin: auto;
+    background-color: #d3691e;
+}
+p{
+    text-align: justify;
+}
+h1{
+    border-bottom: 2px solid #a52a2a;
+}
+h2{
+    width: 96%;
+    background-color: #cd853f;
+    font-style: italic;
+}
+li {
+    display: inline-block;
+    min-width: 50px;
+    padding: 3px;
+    list-style-type: none;
+    border-left: 2px solid #a52a2a;
+    border-right: 2px solid #a52a2a;
+    color: white;
+}
+img{
+    width: 100px;
+    border: 2px solid #a52a2a;
+    float: left;
+    margin: 6px;
+}
